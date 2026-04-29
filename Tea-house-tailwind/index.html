@@ -30,14 +30,14 @@
         <header class="flex pt-10 mb-20">
             <!-- Text content -->
             <div>
-                <h1 class="text-5xl md:text-5xl">It's good <br> tea time at The <br> Tea House</h1><br>
+                <h1 class="sm:text-5xl md:text-5xl">It's good <br> tea time at The <br> Tea House</h1><br>
                 <p class="text-gray-500 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p><br>
-                <button class="rounded-lg flex gap-1 bg-gradient-to-r from-[#FF8938] to-[#FF0000] w-48 h-16 justify-center items-center text-white font-bold">Explore More<svg class="w-6 -rotate-45" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Pro v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2026 Fonticons, Inc.--><path d="M598.6 342.6C611.1 330.1 611.1 309.8 598.6 297.3L470.6 169.3C458.1 156.8 437.8 156.8 425.3 169.3C412.8 181.8 412.8 202.1 425.3 214.6L498.7 288L64 288C46.3 288 32 302.3 32 320C32 337.7 46.3 352 64 352L498.7 352L425.3 425.4C412.8 437.9 412.8 458.2 425.3 470.7C437.8 483.2 458.1 483.2 470.6 470.7L598.6 342.7z"/></svg></button>
+                <button class="rounded-lg flex gap-1 bg-gradient-to-r from-[#FF8938] to-[#FF0000] w-40 h-14 justify-center items-center text-white font-bold">Explore More<svg class="w-6 -rotate-45" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Pro v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2026 Fonticons, Inc.--><path d="M598.6 342.6C611.1 330.1 611.1 309.8 598.6 297.3L470.6 169.3C458.1 156.8 437.8 156.8 425.3 169.3C412.8 181.8 412.8 202.1 425.3 214.6L498.7 288L64 288C46.3 288 32 302.3 32 320C32 337.7 46.3 352 64 352L498.7 352L425.3 425.4C412.8 437.9 412.8 458.2 425.3 470.7C437.8 483.2 458.1 483.2 470.6 470.7L598.6 342.7z"/></svg></button>
             </div>
             <!-- image content -->
-            <div class="relative">
+            <div class="relative sm:flex-col">
                 <div>
-                    <img class="w-full" src="images/banner.png" alt="">
+                    <img class="w-full mt-12 pl-9" src="images/banner.png" alt="">
                 </div>
                 <!-- card -->
                 <div class="absolute gap-1 flex items-center bg-white rounded-lg shadow-lg p-2 -mt-9">
@@ -53,6 +53,45 @@
                 </div>
             </div>
         </header>
+        <!-- Featured seection -->
+        <section>
+            <div class="py-8 text-center">
+                <h1 class="font-bold text-3xl mb-2">Our Featured Products</h1>
+                <p class="font-normal text-[#777777] text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            </div>
+            <!-- card container -->
+            <div class="grid lg:grid-cols-4 gap-3 grid-cols-1">
+                <!-- card -->
+                <div class="rounded-lg shadow-2xl">
+                    <img class="bg-slate-100 rounded-lg mx-auto p-4" src="images/tea-1.png" alt="">
+                    <div class="text-center">
+                        <h2 class="font-bold my-1">Milk Tea</h2>
+                        <p class="font-light text-sm">Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <div class="rounded-lg shadow-2xl">
+                    <img class="bg-slate-100 rounded-lg mx-auto p-4" src="images/tea-2.png" alt="">
+                    <div class="text-center">
+                        <h2 class="font-bold my-1">Black Tea</h2>
+                        <p class="font-light text-sm">Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <div class="rounded-lg shadow-2xl">
+                    <img class="bg-slate-100 rounded-lg mx-auto p-4" src="images/tea-3.png" alt="">
+                    <div class="text-center">
+                        <h2 class="font-bold my-1">Lemon Tea</h2>
+                        <p class="font-light text-sm">Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <div class="rounded-lg shadow-2xl">
+                    <img class="bg-slate-100 rounded-lg mx-auto p-4" src="images/tea-4.png" alt="">
+                    <div class="text-center">
+                        <h2 class="font-bold my-1">Green Tea</h2>
+                        <p class="font-light text-sm">Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>
